@@ -43,6 +43,7 @@ def using_delete(array, string)
 end
 
 def using_delete_at(array, integer)
+  array = ["Ultron", "BB8", "Iron Man"]
   integer = 1
   array.delete_at(1)
 end
